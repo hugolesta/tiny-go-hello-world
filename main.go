@@ -10,8 +10,8 @@ func main(){
 
 	for {
 		led.High()
-		time.Sleep(time.Microsecond * 500)
+		time.Sleep(time.Millisecond * 500)
 		led.Low()
-		time.Sleep(time.Microsecond * 500)
+		time.Sleep(time.Millisecond * 500)
 	}
 }
